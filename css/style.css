@@ -1,0 +1,190 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+  }
+  
+  nav input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  nav .menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  .about {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about article p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .solutions {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .solutions p {
+    font-size: 1.1em;
+  }
+  
+  .solutions h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+  }
+  
+  .solutions img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Formulário */
+  .contact {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Login Section */
+  .login-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .create-account, .login {
+    display: block;
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+  }
+  
+  .create-account:hover, .login:hover {
+    text-decoration: underline;
+  }
+  
+  .login-section span {
+    color: green;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Responsivo */
+  @media (min-width: 768px) {
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    nav input[type="text"] {
+      max-width: 200px;
+    }
+  }
+  
